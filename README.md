@@ -1,4 +1,6 @@
 # helloworld
-Hello World in Java
+Tja!
+Mitt första övningsrepo. Leker lite i Java.
 
-Hello Everyone!
+Lägg till en favoriträtt! Ta bort en rätt om du inte tycker om den,
+men jag har rätt så mina lär du inte röra!
