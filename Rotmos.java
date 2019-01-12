@@ -1,9 +1,9 @@
 class Rotmos extends Mat {
-	public Rotmos(String name) {
-		super("Rotmos", name);
+	public Rotmos() {
+		super("Rotmos");
 		sideOrder();
 	}
 	private void sideOrder() {
-		System.out.println("    +Fläsklägg!?");
+		System.out.println("    +Fläsklägg");
 	}
 }
