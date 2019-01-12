@@ -1,5 +1,5 @@
 class HotDog extends Mat {
-	public HotDog() {
-		super("varmkorv");
+	public HotDog(String name) {
+		super("varmkorv", name);
 	}
 }

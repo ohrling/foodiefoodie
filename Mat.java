@@ -1,12 +1,14 @@
 abstract class Mat {
-	private String name;
+	private String foodName;
+	private String userName;
 	
-	public Mat(String name) {
-		this.name = name;
-		print();
+	public Mat(String foodName, String userName) {
+		this.foodName = foodName;
+		this.userName = userName;
 	}		
 	
-	private void print() {
-		System.out.println(name + " är gott!");
+	@Override
+	public String toString() {
+		return String.format(userName + " tycker om " + foodName + "!");
 	}
 }
